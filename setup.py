@@ -9,7 +9,7 @@ setup(
     author_email = 'ryan@devopsmachine.com',
     license = 'MIT',
     url = 'https://github.com/RyanMillerC/encase',
-    download_url = 'https://github.com/RyanMillerC/encase/archive/1.0.tar.gz',
+    download_url = 'https://github.com/RyanMillerC/encase/archive/1.0.2.tar.gz',
     keywords = ['data', 'dictionary'],
     classifiers = [
         'Intended Audience :: Developers',
