@@ -38,7 +38,10 @@ class Encase(dict):
         Use syntax data.key = value instead (data is instance of
         this class).
         """
-        self[key] = value
+        if key not in dir(dict):
+            self[key] = value
+        else:
+            raise AttributeError("Cannot overwrite the %s dict method" % key)
 
     def get(self, key):
         """Get value of attribute at 'key'. Use this method when
