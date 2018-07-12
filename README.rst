@@ -2,6 +2,8 @@
 Encase
 #############
 
+.. image:: https://travis-ci.org/RyanMillerC/encase.svg?branch=master :target: https://travis-ci.org/RyanMillerC/encase
+
 Encase - A Better Dictionary Class.
 
 Features
