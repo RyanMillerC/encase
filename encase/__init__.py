@@ -48,7 +48,7 @@ class Encase(dict):
         if key not in dir(dict):
             self[key] = value
         else:
-            raise AttributeError("Cannot overwrite the %s dict method" % key)
+            raise AttributeError("Cannot overwrite the '%s' dict method" % key)
 
     def get(self, key):
         """Return value of attribute at 'key'. This is the method
