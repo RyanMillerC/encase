@@ -160,4 +160,3 @@ Ryan Miller - ryan@devopsmachine.com
     :alt: PyPi Version
     :scale: 100%
     :target: https://pypi.org/project/encase/
-
