@@ -2,9 +2,7 @@
 Encase
 ######
 
-
-.. image:: https://travis-ci.org/RyanMillerC/encase.svg?branch=master
-    :target: https://travis-ci.org/RyanMillerC/encase
+|build-status| |license| |pypi-version|
 
 An extension of the Python built-in Dictionary class for working with large
 datasets.
@@ -147,3 +145,18 @@ Author
 ======
 
 Ryan Miller - ryan@devopsmachine.com
+
+.. |build-status| image:: https://img.shields.io/travis/RyanMillerC/encase.svg
+    :alt: Build Status
+    :scale: 100%
+    :target: https://travis-ci.org/RyanMillerC/encase
+
+.. |license| image:: https://img.shields.io/github/license/ryanmillerc/encase.svg
+    :alt: License
+    :scale: 100%
+    :target: https://github.com/RyanMillerC/encase/blob/master/LICENSE.txt
+
+.. |pypi-version| image:: https://img.shields.io/pypi/v/encase.svg
+    :alt: PyPi Version
+    :scale: 100%
+    :target: https://pypi.org/project/encase/
