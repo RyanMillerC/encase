@@ -1,6 +1,8 @@
 .venv
 .pytest_cache
 encase/*.pyc
+encase/__pycache__
+test/__pycache__
 
 # Exclude build files
 dist
